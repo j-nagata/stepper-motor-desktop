@@ -1,0 +1,41 @@
+{
+    "name": "stepper-motor-controller",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "build": "react-scripts build",
+        "test": "react-scripts start",
+        "up": "electron .",
+        "buildup": "react-scripts build && electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@ant-design/icons": "^4.3.0",
+        "@material-ui/core": "^4.11.2",
+        "antd": "^4.9.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "serialport": "^9.0.3"
+    },
+    "devDependencies": {
+        "electron": "^11.0.4",
+        "electron-rebuild": "^2.3.4",
+        "react-scripts": "^4.0.1"
+    },
+    "homepage": ".",
+    "typr": "module",
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
